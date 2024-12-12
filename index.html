@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: url('https://i.ibb.co/ZKcnW7P/Screenshot-2024-1206-214022.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        header h1 {
+            z-index: 2;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            z-index: 2;
+            margin: 10px 0 0;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kamlapur Govt. Higher Secondary School</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section>
+        <h2>About Us</h2>
+        <p>
+            <strong>Kamlapur Govt. Higher Secondary School</strong> was established in 1985 with a vision to provide quality education. Our goal is to create an environment where students can learn, grow, and excel academically as well as personally.
+        </p>
+        <p>
+            We focus on holistic development, fostering creativity, critical thinking, and leadership skills among students. Our commitment to inclusivity and innovation has made us a center of learning excellence.
+        </p>
+    </section>
+
+    <!-- Basic Details Section -->
+    <section>
+        <h2>Basic Details</h2>
+        <ul>
+            <li><strong>School Name:</strong> Kamlapur Govt. Higher Secondary School</li>
+            <li><strong>Established:</strong> 1985</li>
+            <li><strong>Principal:</strong> Mr. Rajesh Sharma</li>
+            <li><strong>Contact:</strong> 1234567890</li>
+            <li><strong>Email:</strong> school@example.com</li>
+            <li><strong>Address:</strong> Main Road, Kamlapur, 123456</li>
+        </ul>
+    </section>
+
+    <!-- Facilities Section -->
+    <section>
+        <h2>Facilities</h2>
+        <ul>
+            <li>Well-equipped Science Labs</li>
+            <li>Spacious Library with over 5000 books</li>
+            <li>Sports Complex with indoor and outdoor games</li>
+            <li>Smart Classrooms with digital boards</li>
+            <li>Transport facility covering nearby villages</li>
+            <li>Hygienic Canteen</li>
+        </ul>
+    </section>
+
+    <!-- Room Details Section -->
+    <section>
+        <h2>Room Details</h2>
+        <ul>
+            <li><strong>Total Classrooms:</strong> 30</li>
+            <li><strong>Labs:</strong> Physics Lab, Chemistry Lab, Biology Lab, Computer Lab</li>
+            <li><strong>Library:</strong> 1 spacious library with seating capacity for 50 students</li>
+            <li><strong>Staff Rooms:</strong> 3</li>
+            <li><strong>Auditorium:</strong> 1 large auditorium for events and seminars</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 Kamlapur Govt. Higher Secondary School. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
